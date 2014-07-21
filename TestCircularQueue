@@ -1,0 +1,10 @@
+public class TestCircularQueue {
+	    public static void main ( String [] args) {
+	        CircularQueue n = new CircularQueue ();
+	        n.setSize(10);
+	        for (int J=0; J<3; J++)
+	        {n.insertQueue ();
+	        n.deleteQueue ();
+	        n.printQueueLogical ();}
+	    }
+	}

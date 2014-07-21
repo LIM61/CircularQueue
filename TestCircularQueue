@@ -2,9 +2,46 @@ public class TestCircularQueue {
 	    public static void main ( String [] args) {
 	        CircularQueue n = new CircularQueue ();
 	        n.setSize(10);
-	        for (int J=0; J<3; J++)
+	        for (int J=0; J<3; J++) // 0 <= J < 3
 	        {n.insertQueue ();
 	        n.deleteQueue ();
 	        n.printQueueLogical ();}
 	    }
 	}
+
+Enter name
+3
+Servicing null
+ q [2] = null
+ q [3] = null
+ q [4] = null
+ q [5] = null
+ q [6] = null
+ q [7] = null
+ q [8] = null
+ q [9] = null
+ q [0] = 3
+Enter name
+2
+Servicing null
+ q [3] = null
+ q [4] = null
+ q [5] = null
+ q [6] = null
+ q [7] = null
+ q [8] = null
+ q [9] = null
+ q [0] = 3
+ q [1] = 2
+Enter name
+5
+Servicing null
+ q [4] = null
+ q [5] = null
+ q [6] = null
+ q [7] = null
+ q [8] = null
+ q [9] = null
+ q [0] = 3
+ q [1] = 2
+ q [2] = 5
